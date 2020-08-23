@@ -29,7 +29,6 @@ describe("authentication", () => {
       .expect(200)
       .end((err: any, res: any) => {
         if (err) return done(err);
-        console.log(res.body);
         expect(res.body).toBeInstanceOf(Object);
         expect(res.body.data.createUser.email).toBe("test@user.com");
         done();

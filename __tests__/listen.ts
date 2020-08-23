@@ -31,7 +31,6 @@ describe("Listen data", () => {
                   }
                 }
               }
-              
               `,
       })
       .auth(token, { type: "bearer" })

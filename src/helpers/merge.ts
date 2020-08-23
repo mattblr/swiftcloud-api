@@ -34,15 +34,17 @@ const makeSearchQuery = (searchInput: any) => {
     if (searchInput.year) {
       search.year = searchInput.year;
     }
-  }
 
-  if (searchInput.writer) {
-    return {
-      ...search,
-      writer: { $in: search.writer },
-    };
+    if (searchInput.writer) {
+      return {
+        ...search,
+        writer: { $in: search.writer },
+      };
+    } else {
+      return search;
+    }
   } else {
-    return search;
+    return {};
   }
 };
 

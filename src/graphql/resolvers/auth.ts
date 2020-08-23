@@ -8,9 +8,9 @@ const { transformUser } = require("../../helpers/merge");
 
 module.exports = {
   createUser: async (args: any, req: any) => {
-    if (!req.isAuth) {
-      throw new Error("Not authorized!");
-    }
+    // if (!req.isAuth) {
+    //   throw new Error("Not authorized!");
+    // }
     try {
       const existingUser = await User.findOne({
         email: args.userInput.email,

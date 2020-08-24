@@ -54,11 +54,7 @@
     ]
   },
   "devDependencies": {
-    "mongodb-memory-server": "^6.6.4",
-    "ts-node": "^8.10.2",
-    "tslint": "^6.1.2",
-    "tslint-config-prettier": "^1.18.0",
-    "typescript": "^3.9.6"
+    "mongodb-memory-server": "^6.6.4"
   },
   "config": {
     "mongodbMemoryServer": {

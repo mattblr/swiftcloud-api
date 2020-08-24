@@ -8,7 +8,7 @@ As the data exists in a [Google Sheet](https://docs.google.com/spreadsheets/d/1i
 
 ## Generate API Key
 
-Navigate to https://swiftcloud-api.azurewebsites.net and you will be greeted by a ![login screen](https://github.com/mattblr/swiftcloud-app) - please use the details provided to login.
+Navigate to https://swiftcloud-api.azurewebsites.net and you will be greeted by a [login screen](https://github.com/mattblr/swiftcloud-app) - please use the details provided to login.
 ![Login screen](https://i.imgur.com/1wa0Ljd.png)
 
 Next up you will probably want to change that password, so click the _Change Password_ option.

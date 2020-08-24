@@ -22,8 +22,7 @@ jobs:
 
       - name: npm install, build, and test
         run: |
-          npm install
-          npm install -g ts-node typescript ts-lint
+          yarn install
           npm run build --if-present
 
       - name: "Deploy to Azure Web App"
